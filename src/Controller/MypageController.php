@@ -6,12 +6,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class MypageController extends Controller
 {
-    public function number()
+    public function page()
     {
-        $number = mt_rand(0, 100);
-
-        return $this->render('lucky/number.html.twig', array(
-            'number' => $number,
-        ));
+        return $this->render('page/number.html.twig');
     }
 }
