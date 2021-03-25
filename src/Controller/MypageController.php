@@ -4,10 +4,10 @@ namespace App\Controller;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class MypageController extends Controller
+class MyPageController extends Controller
 {
     public function page()
     {
-        return $this->render('page/number.html.twig');
+        return $this->render('page.html.twig');
     }
 }
