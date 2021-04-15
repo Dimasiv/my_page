@@ -14,6 +14,9 @@
     "doctrine/lexer": {
         "version": "1.0.2"
     },
+    "ivan-uskov/image-spider": {
+        "version": "v0.1.1"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
